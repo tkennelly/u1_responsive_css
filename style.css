@@ -1,0 +1,35 @@
+
+body {
+    background-color: rgb(165, 244, 244);
+ 
+}
+    
+@media screen and (max-width: 800px) {
+    body {
+        background-color: rgb(151, 151, 235);
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    .container {
+        display: flex;
+        justify-content: space-around;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        background-color: black;
+    }
+
+    h1, h2 {
+        color: white;
+        font-style: italic;
+    }
+
+    .container {
+        flex-direction:column;
+    }
+}
